@@ -3,7 +3,7 @@ name: Pipeline React
 on:
   push:
     branches:
-      - main
+      - master
 
 jobs:
   build:
