@@ -21,3 +21,5 @@ jobs:
       - name: Ejecutar linter
         run: npm run lint
         continue-on-error: true
+      - name: Ejecutar pruebas
+        run: npm run test
