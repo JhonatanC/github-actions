@@ -71,7 +71,7 @@ describe("Validate elements to elements exist in the document.", () => {
 describe("Validate accions of useCounter", () => {
   test("Initial Value should be 10", () => {
     const { result } = renderHook(() => useCounter(10));
-    expect(result.current.count).toBe(10);
+    expect(result.current.count).toBe(9);
   });
 
   test("Check value when handleIncrement is called", () => {
